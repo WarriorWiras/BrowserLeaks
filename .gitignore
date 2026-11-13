@@ -1,0 +1,16 @@
+# Experiment data: browser profiles and forensic evidence must never be committed
+data/
+History
+History-wal
+History-shm
+History-journal
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
